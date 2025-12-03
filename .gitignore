@@ -1,2 +1,6 @@
 # C output files
 *.out
+
+# Zig
+zig-out/
+.zig-cache/
