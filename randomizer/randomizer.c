@@ -9,7 +9,7 @@ int main(void){
 
 	srand(time(NULL));
 
-	const char *language = languages[rand() % 8];
+	const char *language = languages[rand() % 9];
 
 	printf("This Advent Of Code should be done using: %s", language);
 
