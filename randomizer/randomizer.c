@@ -11,7 +11,7 @@ int main(void){
 
 	const char *language = languages[rand() % 9];
 
-	printf("This Advent Of Code should be done using: %s", language);
+	printf("This Advent Of Code should be done using: %s\n", language);
 
 	return 0;
 }
