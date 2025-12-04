@@ -26,7 +26,5 @@ I've kinda overcomplicated things (which probably won't happen when a language
 I'm completley at home with (e.g. Java and Kotlin) gets selected) like using
 `struct` and `enum` when everything could be handled with chars (or `u8`) and
 regular ints (or `i32`).
-Next big hurdle was after reading the file put everything in an array of
-rotations and then actually perform the rotations to get the correct result.
 
 
