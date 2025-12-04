@@ -25,9 +25,11 @@ pub fn main() !void {
     var counter: i32 = 0;
     for (rotations.items) |rotation| {
         std.debug.print("Current pos: {d}\n", .{pos});
-        pos = rotation.rotate(pos);
-        if (pos == 0)
+        if (pos == 0){
             counter += 1;
+        }
+        pos = rotation.rotate(pos, &counter);
+        std.debug.print("Current counter: {d}\n", .{counter});
     }
     std.debug.print("Result {d}\n", .{counter});
 }
