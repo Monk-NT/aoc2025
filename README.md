@@ -29,3 +29,7 @@ regular ints (or `i32`).
 
 ## Day 02
 This Advent Of Code should be done using: Ruby
+### Day 02 -- opinions and details
+Not much to say today. There was a lot less thinking about errors and much more
+writing down code that _feels_ like correct. This was the original vibe coding I
+think
