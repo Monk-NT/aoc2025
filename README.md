@@ -27,4 +27,5 @@ I'm completley at home with (e.g. Java and Kotlin) gets selected) like using
 `struct` and `enum` when everything could be handled with chars (or `u8`) and
 regular ints (or `i32`).
 
-
+## Day 02
+This Advent Of Code should be done using: Ruby
