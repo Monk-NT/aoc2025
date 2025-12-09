@@ -10,7 +10,7 @@ class IdChecker
       calc = 0
       if id_parts[0][0] != "0" and id_parts[1][0] != "0"
         [*id_parts[0].to_i..id_parts[1].to_i].each do |curr_id|
-          calc += check_id(curr_id)
+          calc += check_repeating_id(curr_id)
         end
       end
     end
@@ -25,6 +25,17 @@ class IdChecker
       end
     end
     return 0
+  end
+
+  def check_repeating_id(id)
+    if id.respond_to?("to_s")
+      id_str = id.to_s
+      repeating_pattern = /^(\d+)\1+$/
+      if id_str.match(repeating_pattern) 
+        return id_str.to_i
+      end
+      return 0
+    end
   end
 end
 
